@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0px 5px 3px -2px rgb(137, 135, 135);
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: century gothic;
+    color: #171717;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: #626262;
+    font-weight: 500;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.nav li {
+
+    cursor: pointer;
+
+}
+
+
+
+
+.nav hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #FF4141;
+
+
+}
+
+
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.login button {
+    width: 140px;
+    height: 48px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+    font-family: century gothic;
+
+}
+
+.login button:hover {
+    background-color: #726f6f;
+    color: white;
+}
+
+.cart {
+    position: relative;
+}
+
+.number {
+    background-color: #fb3e3e;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    font-size: 17px;
+    text-align: center;
+
+    left: 33px;
+    top: -2px;
+    color: white;
+}
